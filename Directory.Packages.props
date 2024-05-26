@@ -1,5 +1,8 @@
 <Project>
-  <Import Project="$([MSBuild]::GetPathOfFileAbove(Directory.Packages.props, $(MSBuildThisFileDirectory)..))" />
+  <PropertyGroup>
+    <ParentDirectoryPackages>$([MSBuild]::GetPathOfFileAbove('Directory.Packages.targets', '$(MSBuildThisFileDirectory)../'))</ParentDirectoryPackages>
+  </PropertyGroup>
+  <Import Project="$(ParentDirectoryPackages)" Condition="Exists($(ParentDirectoryPackages))"/>
   <PropertyGroup>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
