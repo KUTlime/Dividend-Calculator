@@ -1,2 +1,3 @@
-# .NET template
-> A .NET project template.
+# PSE Dividend Calculator
+
+> A simple Dividend calculator for PSE.
