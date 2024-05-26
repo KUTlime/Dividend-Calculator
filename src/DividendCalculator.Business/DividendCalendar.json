@@ -1,0 +1,20 @@
+﻿[
+  {
+    "Year": 2022,
+    "Stock": {
+      "Name": "ČEZ",
+      "AlternativeNames": []
+    },
+    "ExDividendDate": "2022-07-01T00:00:00",
+    "RecordDate": "2022-07-02T00:00:00"
+  },
+  {
+    "Year": 2023,
+    "Stock": {
+      "Name": "ČEZ",
+      "AlternativeNames": []
+    },
+    "ExDividendDate": "2023-06-29T00:00:00",
+    "RecordDate": "2023-06-30T00:00:00"
+  }
+]
