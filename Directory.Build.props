@@ -25,13 +25,13 @@
     <InternalsVisibleTo Include="$(AssemblyName).Tests" />
   </ItemGroup>
   <ItemGroup Condition="'$(MSBuildProjectExtension)' != '.dcproj'">
-    <PackageReference Include="StyleCop.Analyzers" Version="*-*">
+    <PackageVersion Include="StyleCop.Analyzers" Version="*-*">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="MoveToGlobalUsingsAnalyzer" Version="*-*">
+    </PackageVersion>
+    <PackageVersion Include="MoveToGlobalUsingsAnalyzer" Version="*-*">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
+    </PackageVersion>
   </ItemGroup>
 </Project>
