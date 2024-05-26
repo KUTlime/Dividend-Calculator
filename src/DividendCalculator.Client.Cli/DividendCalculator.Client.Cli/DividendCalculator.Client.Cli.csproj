@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+    </PropertyGroup>
+  
+    <ItemGroup>
+      <ProjectReference Include="..\..\DividendCalculator.Core\DividendCalculator.Core\DividendCalculator.Core.csproj" />
+    </ItemGroup>
+
+</Project>

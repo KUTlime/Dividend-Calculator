@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AD49D916
 		tests\Directory.Build.targets = tests\Directory.Build.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DividendCalculator.Core", "src\DividendCalculator.Core\DividendCalculator.Core\DividendCalculator.Core.csproj", "{C78CA74A-4FD6-460E-97B8-3CA7B485373B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DividendCalculator.Client.Cli", "src\DividendCalculator.Client.Cli\DividendCalculator.Client.Cli\DividendCalculator.Client.Cli.csproj", "{7E98C741-8581-4F77-B98D-3FD115DA11E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,5 +31,15 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AD49D916-6B58-4FE0-B578-45EE6D5CA775} = {0A243847-374D-4275-8CF3-65655F840D38}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C78CA74A-4FD6-460E-97B8-3CA7B485373B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C78CA74A-4FD6-460E-97B8-3CA7B485373B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C78CA74A-4FD6-460E-97B8-3CA7B485373B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C78CA74A-4FD6-460E-97B8-3CA7B485373B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E98C741-8581-4F77-B98D-3FD115DA11E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E98C741-8581-4F77-B98D-3FD115DA11E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E98C741-8581-4F77-B98D-3FD115DA11E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E98C741-8581-4F77-B98D-3FD115DA11E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
