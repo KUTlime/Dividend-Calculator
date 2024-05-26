@@ -1,0 +1,132 @@
+﻿[
+  {
+    "Date" : "2022-02-01T00:00:00Z",
+    "Stock": {
+      "Name": "Philip Morris ČR",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 66789.16,
+    "Units": 4,
+    "UnitPrice": 16620
+  },
+  {
+    "Date" : "2022-02-01T00:00:00Z",
+    "Stock": {
+      "Name": "ČEZ",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 64659.62,
+    "Units": 80,
+    "UnitPrice": 804.5
+  },
+  {
+    "Date" : "2022-03-16T00:00:00Z",
+    "Stock": {
+      "Name": "SAB Finance",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 88411.10,
+    "Units": 83,
+    "UnitPrice": 1060
+  },
+  {
+    "Date" : "2022-03-16T00:00:00Z",
+    "Stock": {
+      "Name": "E4U",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 92450.80,
+    "Units": 800,
+    "UnitPrice": 115
+  },
+  {
+    "Date" : "2022-03-21T00:00:00Z",
+    "Stock": {
+      "Name": "Erste Group Bank",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 87666.69,
+    "Units": 108,
+    "UnitPrice": 808
+  },
+  {
+    "Date" : "2022-04-22T00:00:00Z",
+    "Stock": {
+      "Name": "Moneta Money Bank",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 75419.82,
+    "Units": 816,
+    "UnitPrice": 92
+  },
+  {
+    "Date" : "2022-04-22T00:00:00Z",
+    "Stock": {
+      "Name": "Komerční banka",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 75588.58,
+    "Units": 88,
+    "UnitPrice": 855
+  },
+  {
+    "Date" : "2023-08-11T00:00:00Z",
+    "Stock": {
+      "Name": "Komerční banka",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 28638.25,
+    "Units": 40,
+    "UnitPrice": 712.5
+  },
+  {
+    "Date" : "2023-10-09T00:00:00Z",
+    "Stock": {
+      "Name": "Philip Morris ČR",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 16910,
+    "Units": 1,
+    "UnitPrice": 16820
+  },
+  {
+    "Date" : "2023-10-09T00:00:00Z",
+    "Stock": {
+      "Name": "Komerční banka",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 14139,
+    "Units": 21,
+    "UnitPrice": 669
+  },
+  {
+    "Date" : "2023-12-06T00:00:00Z",
+    "Stock": {
+      "Name": "Colt CZ",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 1680,
+    "Units": 3,
+    "UnitPrice": 530
+  },
+  {
+    "Date" : "2024-05-13T00:00:00Z",
+    "Stock": {
+      "Name": "Colt CZ",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 3510,
+    "Units": 5,
+    "UnitPrice": 684
+  },
+  {
+    "Date" : "2024-05-22T00:00:00Z",
+    "Stock": {
+      "Name": "Philip Morris ČR",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 29863.74,
+    "Units": 2,
+    "UnitPrice": 14860
+  }
+]

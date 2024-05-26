@@ -1,0 +1,155 @@
+﻿[
+  {
+    "Date": "2022-05-17T00:00:00Z",
+    "Stock": {
+      "Name": "SAB Finance",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 3868.18,
+    "AmountPerUnit": 1
+  },
+  {
+    "Date": "2022-05-23T00:00:00Z",
+    "Stock": {
+      "Name": "Komerční banka",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 3854.4,
+    "AmountPerUnit": 1
+  },
+  {
+    "Date": "2022-05-25T00:00:00Z",
+    "Stock": {
+      "Name": "Moneta Money Bank",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 5712,
+    "AmountPerUnit": 1
+  },
+  {
+    "Date": "2022-05-25T00:00:00Z",
+    "Stock": {
+      "Name": "Erste Group Bank",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 4259,
+    "AmountPerUnit": 1
+  },
+  {
+    "Date": "2022-06-30T00:00:00Z",
+    "Stock": {
+      "Name": "Philip Morris ČR",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 5240,
+    "AmountPerUnit": 1
+  },
+  {
+    "Date": "2022-10-04T00:00:00Z",
+    "Stock": {
+      "Name": "E4U",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 5760,
+    "AmountPerUnit": 1
+  },
+  {
+    "Date": "2022-10-06T00:00:00Z",
+    "Stock": {
+      "Name": "SAB Finance",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 2878.31,
+    "AmountPerUnit": 1
+  },
+  {
+    "Date": "2022-11-01T00:00:00Z",
+    "Stock": {
+      "Name": "ČEZ",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 3840,
+    "AmountPerUnit": 1
+  },
+  {
+    "Date": "2022-12-22T00:00:00Z",
+    "Stock": {
+      "Name": "Komerční banka",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 4884,
+    "AmountPerUnit": 1
+  },
+  {
+    "Date": "2023-05-17T00:00:00Z",
+    "Stock": {
+      "Name": "SAB Finance",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 4565,
+    "AmountPerUnit": 1
+  },
+  {
+    "Date": "2023-05-19T00:00:00Z",
+    "Stock": {
+      "Name": "Erste Group Bank",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 4874,
+    "AmountPerUnit": 1
+  },
+  {
+    "Date": "2023-05-22T00:00:00Z",
+    "Stock": {
+      "Name": "Komerční banka",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 5316.96,
+    "AmountPerUnit": 1
+  },
+  {
+    "Date": "2023-05-25T00:00:00Z",
+    "Stock": {
+      "Name": "Moneta Money Bank",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 6528,
+    "AmountPerUnit": 1
+  },
+  {
+    "Date": "2023-06-12T00:00:00Z",
+    "Stock": {
+      "Name": "Philip Morris ČR",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 5240,
+    "AmountPerUnit": 1
+  },
+  {
+    "Date": "2023-08-01T00:00:00Z",
+    "Stock": {
+      "Name": "ČEZ",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 11600,
+    "AmountPerUnit": 1
+  },
+  {
+    "Date": "2023-10-03T00:00:00Z",
+    "Stock": {
+      "Name": "E4U",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 11400,
+    "AmountPerUnit": 1
+  },
+  {
+    "Date": "2023-12-01T00:00:00Z",
+    "Stock": {
+      "Name": "SAB Finance",
+      "AlternativeNames": []
+    },
+    "TotalAmount": 2038.8,
+    "AmountPerUnit": 1
+  }
+]
