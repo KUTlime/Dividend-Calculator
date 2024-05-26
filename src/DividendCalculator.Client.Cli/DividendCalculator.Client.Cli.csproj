@@ -3,9 +3,9 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
     </PropertyGroup>
-  
+
     <ItemGroup>
-      <ProjectReference Include="..\..\DividendCalculator.Core\DividendCalculator.Core\DividendCalculator.Core.csproj" />
+      <ProjectReference Include="..\..\DividendCalculator.Core\DividendCalculator.Core.csproj" />
       <PackageReference Include="Cocona" Version="*" />
     </ItemGroup>
 
