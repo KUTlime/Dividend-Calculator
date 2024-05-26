@@ -1,17 +1,17 @@
 <Project>
+  <Import Project="$([MSBuild]::GetPathOfFileAbove(Directory.Packages.props, $(MSBuildThisFileDirectory)..))" />
   <PropertyGroup>
-    <ParentDirectoryBuildProps>$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))</ParentDirectoryBuildProps>
-    <Import Project="$(ParentDirectoryBuildProps)" Condition="Exists($(ParentDirectoryBuildProps))"/>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
-  <ItemGroup Condition="'$(MSBuildProjectExtension)' != '.dcproj'">
-    <PackageReference Include="StyleCop.Analyzers" Version="*-*">
+  <ItemGroup>
+    <PackageVersion Include="Cocona" Version="2.2.0"/>
+    <PackageVersion Include="StyleCop.Analyzers" Version="1.2.0-beta.556">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="MoveToGlobalUsingsAnalyzer" Version="*-*">
+    </PackageVersion>
+    <PackageVersion Include="MoveToGlobalUsingsAnalyzer" Version="1.4.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
+    </PackageVersion>
   </ItemGroup>
 </Project>
