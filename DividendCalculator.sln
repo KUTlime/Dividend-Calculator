@@ -18,9 +18,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AD49D916
 		tests\Directory.Build.targets = tests\Directory.Build.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DividendCalculator.Core", "src\DividendCalculator.Core\DividendCalculator.Core.csproj", "{C78CA74A-4FD6-460E-97B8-3CA7B485373B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DividendCalculator.Business", "src\DividendCalculator.Business\DividendCalculator.Business.csproj", "{C78CA74A-4FD6-460E-97B8-3CA7B485373B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DividendCalculator.Client.Cli", "src\DividendCalculator.Client.Cli\DividendCalculator.Client.Cli.csproj", "{7E98C741-8581-4F77-B98D-3FD115DA11E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DividendCalculator.Abstractions", "src\DividendCalculator.Abstractions\DividendCalculator.Abstractions.csproj", "{277C3B10-3B82-4EFD-AF9E-7A2309330203}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DividendCalculator.Domain", "src\DividendCalculator.Domain\DividendCalculator.Domain.csproj", "{800E8F0D-2189-4FC4-A3DB-CCD9A6CC6099}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,5 +46,13 @@ Global
 		{7E98C741-8581-4F77-B98D-3FD115DA11E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E98C741-8581-4F77-B98D-3FD115DA11E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E98C741-8581-4F77-B98D-3FD115DA11E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{277C3B10-3B82-4EFD-AF9E-7A2309330203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{277C3B10-3B82-4EFD-AF9E-7A2309330203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{277C3B10-3B82-4EFD-AF9E-7A2309330203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{277C3B10-3B82-4EFD-AF9E-7A2309330203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{800E8F0D-2189-4FC4-A3DB-CCD9A6CC6099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{800E8F0D-2189-4FC4-A3DB-CCD9A6CC6099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{800E8F0D-2189-4FC4-A3DB-CCD9A6CC6099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{800E8F0D-2189-4FC4-A3DB-CCD9A6CC6099}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
