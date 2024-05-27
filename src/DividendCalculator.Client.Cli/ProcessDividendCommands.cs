@@ -4,16 +4,19 @@ public class ProcessDividendCommands
 {
     private readonly IDividendCalendarParser<string> _dividendCalendarParser;
     private readonly IOrdersParser<string> _ordersParser;
+    private readonly IDividendParser<string> _dividendParser;
 
     public ProcessDividendCommands(
         IDividendCalendarParser<string> dividendCalendarParser,
-        IOrdersParser<string> ordersParser)
+        IOrdersParser<string> ordersParser,
+        IDividendParser<string> dividendParser)
     {
         _dividendCalendarParser = dividendCalendarParser;
         _ordersParser = ordersParser;
+        _dividendParser = dividendParser;
     }
 
-    public async Task Add(
+    public async Task Process(
         [Argument] string calendarJsonFilePath,
         [Argument] string ordersJsonFilePath,
         [Argument] string dividendsJsonFilePath,
@@ -28,11 +31,16 @@ public class ProcessDividendCommands
         string dividendsJson = await File.ReadAllTextAsync(dividendsFilePath.FullName, cancellationToken);
         var dividendCalendarItems = _dividendCalendarParser.Parse(calendarJson).ToList();
         var stockTradeOrders = _ordersParser.Parse(ordersJson).ToList();
-        var dividendPayments = _dividendCalendarParser.Parse(dividendsJson).ToList();
-        Console.WriteLine($"{calendarJsonFilePath}");
+        var dividendPayments = _dividendParser.Parse(dividendsJson).ToList();
+        var results = DividendYieldCalculator.Calculate(dividendCalendarItems, stockTradeOrders, dividendPayments);
         Console.WriteLine($"{dividendCalendarItems.Count}");
         Console.WriteLine($"{stockTradeOrders.Count}");
         Console.WriteLine($"{dividendPayments.Count}");
-        await Task.Run(() => { }, cancellationToken);
+        results
+            .ToList()
+            .ForEach(PrintYields);
     }
+
+    private static void PrintYields(DividendYearYieldResult result) =>
+        Console.WriteLine($"| Stock: {result.Stock.Name} | Total investment: {result.InvestmentAmount} | Year: {result.Year} | Yield: {result.YearYieldAmount} | Yield percentage: {result.YearYieldPercentage:P} ");
 }
