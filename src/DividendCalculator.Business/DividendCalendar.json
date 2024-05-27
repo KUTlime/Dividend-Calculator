@@ -5,8 +5,59 @@
       "Name": "ČEZ",
       "AlternativeNames": []
     },
-    "ExDividendDate": "2022-07-01T00:00:00",
-    "RecordDate": "2022-07-02T00:00:00"
+    "ExDividendDate": "2022-06-28T00:00:00",
+    "RecordDate": "2022-06-30T00:00:00",
+    "ShareDividend": 48
+  },
+  {
+    "Year": 2022,
+    "Stock": {
+      "Name": "Philip Morris ČR",
+      "AlternativeNames": []
+    },
+    "ExDividendDate": "2022-05-31T00:00:00",
+    "RecordDate": "2022-06-02T00:00:00",
+    "ShareDividend": 1310
+  },
+  {
+    "Year": 2022,
+    "Stock": {
+      "Name": "SAB Finance",
+      "AlternativeNames": []
+    },
+    "ExDividendDate": "2022-04-28T00:00:00",
+    "RecordDate": "2022-05-01T00:00:00",
+    "ShareDividend": 46.6
+  },
+  {
+    "Year": 2022,
+    "Stock": {
+      "Name": "SAB Finance",
+      "AlternativeNames": []
+    },
+    "ExDividendDate": "2022-09-21T00:00:00",
+    "RecordDate": "2022-09-23T00:00:00",
+    "ShareDividend": 34.68
+  },
+  {
+    "Year": 2022,
+    "Stock": {
+      "Name": "Komerční banka",
+      "AlternativeNames": []
+    },
+    "ExDividendDate": "2022-04-28T00:00:00",
+    "RecordDate": "2022-05-01T00:00:00",
+    "ShareDividend": 43.8
+  },
+  {
+    "Year": 2022,
+    "Stock": {
+      "Name": "Moneta Money Bank",
+      "AlternativeNames": []
+    },
+    "ExDividendDate": "2022-04-29T00:00:00",
+    "RecordDate": "2022-05-01T00:00:00",
+    "ShareDividend": 7
   },
   {
     "Year": 2023,
@@ -15,6 +66,57 @@
       "AlternativeNames": []
     },
     "ExDividendDate": "2023-06-29T00:00:00",
-    "RecordDate": "2023-06-30T00:00:00"
+    "RecordDate": "2023-07-01T00:00:00",
+    "ShareDividend": 145
+  },
+  {
+    "Year": 2023,
+    "Stock": {
+      "Name": "Philip Morris ČR",
+      "AlternativeNames": []
+    },
+    "ExDividendDate": "2023-05-09T00:00:00",
+    "RecordDate": "2023-05-11T00:00:00",
+    "ShareDividend": 1310
+  },
+  {
+    "Year": 2023,
+    "Stock": {
+      "Name": "SAB Finance",
+      "AlternativeNames": []
+    },
+    "ExDividendDate": "2023-04-27T00:00:00",
+    "RecordDate": "2023-04-29T00:00:00",
+    "ShareDividend": 55
+  },
+  {
+    "Year": 2023,
+    "Stock": {
+      "Name": "SAB Finance",
+      "AlternativeNames": []
+    },
+    "ExDividendDate": "2023-09-21T00:00:00",
+    "RecordDate": "2023-09-23T00:00:00",
+    "ShareDividend": 24.56
+  },
+  {
+    "Year": 2023,
+    "Stock": {
+      "Name": "Komerční banka",
+      "AlternativeNames": []
+    },
+    "ExDividendDate": "2023-04-28T00:00:00",
+    "RecordDate": "2023-05-03T00:00:00",
+    "ShareDividend": 60.42
+  },
+  {
+    "Year": 2023,
+    "Stock": {
+      "Name": "Moneta Money Bank",
+      "AlternativeNames": []
+    },
+    "ExDividendDate": "2023-04-25T00:00:00",
+    "RecordDate": "2023-04-28T00:00:00",
+    "ShareDividend": 8
   }
 ]
