@@ -5,8 +5,8 @@
       "Name": "ČEZ",
       "AlternativeNames": []
     },
-    "ExDividendDate": "2022-06-28T00:00:00",
-    "RecordDate": "2022-06-30T00:00:00",
+    "ExDividendDate": "2022-07-01T00:00:00",
+    "RecordDate": "2022-07-07T00:00:00",
     "DividendPerShare": 48
   },
   {
@@ -45,9 +45,19 @@
       "Name": "Komerční banka",
       "AlternativeNames": []
     },
-    "ExDividendDate": "2022-04-28T00:00:00",
-    "RecordDate": "2022-05-01T00:00:00",
+    "ExDividendDate": "2022-04-24T00:00:00",
+    "RecordDate": "2022-05-02T00:00:00",
     "DividendPerShare": 43.8
+  },
+  {
+    "Year": 2022,
+    "Stock": {
+      "Name": "Komerční banka",
+      "AlternativeNames": []
+    },
+    "ExDividendDate": "2022-11-29T00:00:00",
+    "RecordDate": "2022-12-01T00:00:00",
+    "DividendPerShare": 55.50
   },
   {
     "Year": 2022,
@@ -56,8 +66,28 @@
       "AlternativeNames": []
     },
     "ExDividendDate": "2022-04-29T00:00:00",
-    "RecordDate": "2022-05-01T00:00:00",
+    "RecordDate": "2022-05-03T00:00:00",
     "DividendPerShare": 7
+  },
+  {
+    "Year": 2022,
+    "Stock": {
+      "Name": "Erste Group Bank",
+      "AlternativeNames": []
+    },
+    "ExDividendDate": "2022-05-23T00:00:00",
+    "RecordDate": "2022-05-25T00:00:00",
+    "DividendPerShare": 39.49
+  },
+  {
+    "Year": 2022,
+    "Stock": {
+      "Name": "E4U",
+      "AlternativeNames": []
+    },
+    "ExDividendDate": "2022-09-19T00:00:00",
+    "RecordDate": "2022-09-20T00:00:00",
+    "DividendPerShare": 7.2
   },
   {
     "Year": 2023,
@@ -118,5 +148,25 @@
     "ExDividendDate": "2023-04-25T00:00:00",
     "RecordDate": "2023-04-28T00:00:00",
     "DividendPerShare": 8
+  },
+  {
+    "Year": 2023,
+    "Stock": {
+      "Name": "Erste Group Bank",
+      "AlternativeNames": []
+    },
+    "ExDividendDate": "2023-05-16T00:00:00",
+    "RecordDate": "2023-05-18T00:00:00",
+    "DividendPerShare": 46.91
+  },
+  {
+    "Year": 2022,
+    "Stock": {
+      "Name": "E4U",
+      "AlternativeNames": []
+    },
+    "ExDividendDate": "2022-09-19T00:00:00",
+    "RecordDate": "2022-09-20T00:00:00",
+    "DividendPerShare": 14.25
   }
 ]
