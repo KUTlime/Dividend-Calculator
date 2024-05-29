@@ -160,13 +160,13 @@
     "DividendPerShare": 46.91
   },
   {
-    "Year": 2022,
+    "Year": 2023,
     "Stock": {
       "Name": "E4U",
       "AlternativeNames": []
     },
-    "ExDividendDate": "2022-09-19T00:00:00",
-    "RecordDate": "2022-09-20T00:00:00",
+    "ExDividendDate": "2023-09-19T00:00:00",
+    "RecordDate": "2023-09-20T00:00:00",
     "DividendPerShare": 14.25
   }
 ]
