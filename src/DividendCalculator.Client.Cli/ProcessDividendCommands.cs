@@ -40,5 +40,5 @@ public class ProcessDividendCommands
     }
 
     private static void PrintYields(DividendYearYieldResult result) =>
-        Console.WriteLine($"| Stock: {result.Stock.Name,-20} | Total investment: {result.InvestmentAmount:C} | Year: {result.Year} | Yield: {result.YearYieldAmount:C} | Yield percentage: {result.YearYieldPercentage:P} ");
+        Console.WriteLine($"| Stock: {result.Stock.Name,-17} | Total investment: {result.InvestmentAmount:C} | Year: {result.Year} | Yield: {result.YearYieldAmount:C} | Yield percentage: {result.YearYieldPercentage:P} ");
 }
