@@ -33,9 +33,7 @@ public class ProcessDividendCommands
         var stockTradeOrders = _ordersParser.Parse(ordersJson).ToList();
         var dividendPayments = _dividendParser.Parse(dividendsJson).ToList();
         var results = DividendYieldCalculator.Calculate(dividendCalendarItems, stockTradeOrders, dividendPayments);
-        Console.WriteLine($"{dividendCalendarItems.Count}");
-        Console.WriteLine($"{stockTradeOrders.Count}");
-        Console.WriteLine($"{dividendPayments.Count}");
+
         results
             .ToList()
             .ForEach(PrintYields);
